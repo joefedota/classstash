@@ -1,0 +1,303 @@
+[08-Jul-2017 19:29:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:31:41 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:34:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:37:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:37:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:38:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:40:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:41:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 19:42:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 20:45:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 20:46:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 20:51:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 13
+[08-Jul-2017 20:52:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:11) in /home1/classsta/public_html/includes/process_login.php on line 19
+[08-Jul-2017 21:05:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/functions.php:32) in /home1/classsta/public_html/includes/process_login.php on line 19
+[08-Jul-2017 21:49:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/functions.php:32) in /home1/classsta/public_html/includes/process_login.php on line 18
+[08-Jul-2017 23:42:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/functions.php:32) in /home1/classsta/public_html/includes/process_login.php on line 15
+[08-Jul-2017 23:50:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/functions.php:32) in /home1/classsta/public_html/includes/process_login.php on line 15
+[09-Jul-2017 13:38:20 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/classsta/public_html/includes/process_login.php on line 19
+[09-Jul-2017 19:19:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/functions.php:58) in /home1/classsta/public_html/includes/process_login.php on line 18
+[10-Jul-2017 22:04:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home1/classsta/public_html/includes/upload_details.php on line 8
+[10-Jul-2017 22:25:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home1/classsta/public_html/includes/upload_details.php on line 22
+[10-Jul-2017 22:32:47 America/Chicago] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home1/classsta/public_html/includes/upload_details.php on line 8
+[10-Jul-2017 22:37:37 America/Chicago] PHP Warning:  getimagesize() expects parameter 1 to be string, array given in /home1/classsta/public_html/includes/upload_details.php on line 15
+[10-Jul-2017 22:37:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:15) in /home1/classsta/public_html/includes/upload_details.php on line 16
+[10-Jul-2017 22:38:38 America/Chicago] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 15
+[10-Jul-2017 22:40:34 America/Chicago] PHP Warning:  getimagesize(Untitled-1-01.jpg): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_details.php on line 15
+[10-Jul-2017 22:40:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:15) in /home1/classsta/public_html/includes/upload_details.php on line 16
+[10-Jul-2017 22:41:37 America/Chicago] PHP Warning:  move_uploaded_file(/images/Untitled-1-01.jpg): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_details.php on line 21
+[10-Jul-2017 22:41:37 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUbrZX8' to '/images/Untitled-1-01.jpg' in /home1/classsta/public_html/includes/upload_details.php on line 21
+[10-Jul-2017 22:41:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:21) in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:46:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'mysql_error' (T_STRING) in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:47:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$link_identifier' (T_VARIABLE), expecting ']' in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:49:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home1/classsta/public_html/includes/upload_details.php:25
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:51:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'mysqli_error' (T_STRING) in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:52:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$link' (T_VARIABLE), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 22:52:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$mysqli' (T_VARIABLE) in /home1/classsta/public_html/includes/upload_details.php on line 25
+[10-Jul-2017 23:09:16 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/classsta/public_html/includes/upload_details.php on line 14
+[11-Jul-2017 00:10:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home1/classsta/public_html/includes/process_login.php on line 16
+[11-Jul-2017 00:11:25 America/Chicago] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home1/classsta/public_html/includes/process_login.php on line 18
+[11-Jul-2017 00:11:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:18) in /home1/classsta/public_html/includes/process_login.php on line 22
+[11-Jul-2017 00:13:47 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home1/classsta/public_html/includes/process_login.php on line 19
+[11-Jul-2017 00:14:35 America/Chicago] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home1/classsta/public_html/includes/process_login.php on line 19
+[11-Jul-2017 00:14:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:19) in /home1/classsta/public_html/includes/process_login.php on line 23
+[11-Jul-2017 00:18:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home1/classsta/public_html/includes/process_login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/process_login.php on line 15
+[11-Jul-2017 00:22:36 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/classsta/public_html/includes/process_login.php on line 15
+[11-Jul-2017 00:22:59 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/classsta/public_html/includes/process_login.php on line 15
+[11-Jul-2017 00:23:59 America/Chicago] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home1/classsta/public_html/includes/process_login.php on line 18
+[11-Jul-2017 00:23:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:18) in /home1/classsta/public_html/includes/process_login.php on line 22
+[11-Jul-2017 00:27:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 19
+[11-Jul-2017 00:28:05 America/Chicago] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home1/classsta/public_html/includes/process_login.php on line 19
+[11-Jul-2017 00:28:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:19) in /home1/classsta/public_html/includes/process_login.php on line 23
+[11-Jul-2017 00:30:22 America/Chicago] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home1/classsta/public_html/includes/process_login.php on line 17
+[11-Jul-2017 00:30:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/process_login.php:17) in /home1/classsta/public_html/includes/process_login.php on line 21
+[11-Jul-2017 00:36:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 20
+[11-Jul-2017 00:36:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home1/classsta/public_html/includes/process_login.php on line 20
+[11-Jul-2017 00:42:59 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home1/classsta/public_html/includes/process_login.php on line 18
+[11-Jul-2017 00:45:45 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home1/classsta/public_html/includes/process_login.php on line 18
+[11-Jul-2017 22:18:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:15) in /home1/classsta/public_html/includes/upload_details.php on line 33
+[11-Jul-2017 22:34:01 America/Chicago] PHP Parse error:  syntax error, unexpected '"', SCHOOL='"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 24
+[11-Jul-2017 22:35:46 America/Chicago] PHP Parse error:  syntax error, unexpected '", SCHOOL="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 24
+[11-Jul-2017 22:38:16 America/Chicago] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 24
+[11-Jul-2017 22:40:05 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 24
+[14-Jul-2017 14:03:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:06:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:06:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:11:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function bind_param() in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:11:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:17:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[14-Jul-2017 14:19:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[14-Jul-2017 14:23:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[14-Jul-2017 14:24:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:25:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:31
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 31
+[14-Jul-2017 14:42:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[15-Jul-2017 01:25:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[15-Jul-2017 01:32:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home1/classsta/public_html/includes/upload_details.php:26
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(26): mysqli->prepare('UPDATE member S...')
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 26
+[15-Jul-2017 02:26:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/upload_details.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 15
+[15-Jul-2017 02:28:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'classsta_sec_db.member' doesn't exist in /home1/classsta/public_html/includes/upload_details.php:28
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(28): mysqli->prepare('UPDATE member S...')
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 28
+[23-Jul-2017 00:18:16 America/Chicago] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 49
+[23-Jul-2017 00:27:16 America/Chicago] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home1/classsta/public_html/includes/upload_details.php on line 55
+[23-Jul-2017 01:02:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't know'' at line 1 in /home1/classsta/public_html/includes/upload_details.php:61
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(61): mysqli->prepare('SELECT classes ...')
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 61
+[23-Jul-2017 13:20:04 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'teacher1' cannot be null in /home1/classsta/public_html/includes/upload_details.php:116
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(116): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 116
+[23-Jul-2017 13:20:51 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'teacher1' cannot be null in /home1/classsta/public_html/includes/upload_details.php:116
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(116): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 116
+[23-Jul-2017 14:05:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'teacher1' cannot be null in /home1/classsta/public_html/includes/upload_details.php:116
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(116): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 116
+[23-Jul-2017 15:18:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'teacher2' cannot be null in /home1/classsta/public_html/includes/upload_details.php:116
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(116): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 116
+[23-Jul-2017 16:30:10 America/Chicago] PHP Warning:  preg_match(): Unknown modifier 'p' in /home1/classsta/public_html/includes/upload_details.php on line 117
+[23-Jul-2017 16:30:10 America/Chicago] PHP Warning:  preg_match(): Unknown modifier 'g' in /home1/classsta/public_html/includes/upload_details.php on line 120
+[23-Jul-2017 16:30:10 America/Chicago] PHP Warning:  preg_match(): Unknown modifier '(' in /home1/classsta/public_html/includes/upload_details.php on line 123
+[23-Jul-2017 16:30:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:117) in /home1/classsta/public_html/includes/upload_details.php on line 138
+[23-Jul-2017 22:51:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 22
+[23-Jul-2017 22:59:24 America/Chicago] PHP Parse error:  syntax error, unexpected '$filename' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/upload_rsrc.php on line 17
+[23-Jul-2017 23:00:30 America/Chicago] PHP Warning:  move_uploaded_file(../resources/1500868830108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:00:30 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRpqFO1' to '../resources/1500868830108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document' in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:00:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 23
+[23-Jul-2017 23:10:54 America/Chicago] PHP Warning:  move_uploaded_file(../resources/1500869454108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:10:54 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpl6jNCz' to '../resources/1500869454108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document' in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:10:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 23
+[23-Jul-2017 23:13:38 America/Chicago] PHP Warning:  move_uploaded_file(/public_html/resources/1500869618108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:13:38 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php34ECcZ' to '/public_html/resources/1500869618108.224.109.30application/vnd.openxmlformats-officedocument.wordprocessingml.document' in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:13:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 23
+[23-Jul-2017 23:24:12 America/Chicago] PHP Warning:  move_uploaded_file(/public_html/resources/1500870252108.224.109.30image/jpeg): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:24:12 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqGjYWW' to '/public_html/resources/1500870252108.224.109.30image/jpeg' in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[23-Jul-2017 23:24:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 23
+[23-Jul-2017 23:33:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_rsrc.php:15) in /home1/classsta/public_html/includes/upload_rsrc.php on line 23
+[24-Jul-2017 22:03:09 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot pass parameter 6 by reference in /home1/classsta/public_html/includes/upload_rsrc.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[24-Jul-2017 22:06:00 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot pass parameter 6 by reference in /home1/classsta/public_html/includes/upload_rsrc.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/upload_rsrc.php on line 18
+[24-Jul-2017 22:09:21 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home1/classsta/public_html/includes/upload_rsrc.php on line 19
+[28-Jul-2017 18:01:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt2' (T_VARIABLE) in /home1/classsta/public_html/includes/update_details.php on line 27
+[30-Jul-2017 17:18:17 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ')' in /home1/classsta/public_html/includes/update_details.php on line 7
+[30-Jul-2017 21:40:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$path' (T_VARIABLE) in /home1/classsta/public_html/includes/fav_upload.php on line 9
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(includes/db_connect.php): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/fav_upload.php on line 2
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/db_connect.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home1/classsta/public_html/includes/fav_upload.php on line 2
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(includes/psl-config.php): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/fav_upload.php on line 3
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/psl-config.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home1/classsta/public_html/includes/fav_upload.php on line 3
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home1/classsta/public_html/includes/fav_upload.php on line 4
+[30-Jul-2017 21:41:01 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home1/classsta/public_html/includes/fav_upload.php on line 4
+[30-Jul-2017 21:41:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function sec_session_start() in /home1/classsta/public_html/includes/fav_upload.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/fav_upload.php on line 6
+[30-Jul-2017 21:48:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$check' (T_VARIABLE) in /home1/classsta/public_html/includes/fav_upload.php on line 14
+[30-Jul-2017 21:48:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/fav_upload.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/fav_upload.php on line 19
+[31-Jul-2017 00:37:11 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/classsta/public_html/includes/post_update.php on line 21
+[31-Jul-2017 00:37:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/post_update.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/post_update.php on line 17
+[31-Jul-2017 00:39:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home1/classsta/public_html/includes/post_update.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/post_update.php on line 17
+[31-Jul-2017 00:41:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update) VALUES (?, ?, ?)' at line 1 in /home1/classsta/public_html/includes/post_update.php:17
+Stack trace:
+#0 /home1/classsta/public_html/includes/post_update.php(17): mysqli->prepare('INSERT INTO cla...')
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/post_update.php on line 17
+[31-Jul-2017 00:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE), expecting ',' or ';' in /home1/classsta/public_html/includes/post_update.php on line 18
+[31-Jul-2017 00:46:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update) VALUES ("AP Literature and Composition", "Joe Fedota", "test update")' at line 1 in /home1/classsta/public_html/includes/post_update.php:18
+Stack trace:
+#0 /home1/classsta/public_html/includes/post_update.php(18): mysqli->prepare('INSERT INTO cla...')
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/post_update.php on line 18
+[31-Jul-2017 00:50:35 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/classsta/public_html/includes/post_update.php on line 19
+[31-Jul-2017 00:50:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/post_update.php:17) in /home1/classsta/public_html/includes/post_update.php on line 21
+[31-Jul-2017 23:10:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/deletefav.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/deletefav.php on line 8
+[31-Jul-2017 23:22:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/deletefav.php:13) in /home1/classsta/public_html/includes/deletefav.php on line 15
+[31-Jul-2017 23:29:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/deletefav.php:10) in /home1/classsta/public_html/includes/deletefav.php on line 17
+[31-Jul-2017 23:30:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/deletefav.php:10) in /home1/classsta/public_html/includes/deletefav.php on line 17
+[06-Aug-2017 17:20:15 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/classsta/public_html/includes/assign.php on line 47
+[06-Aug-2017 17:22:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home1/classsta/public_html/includes/assign.php on line 44
+[07-Aug-2017 01:23:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/classsta/public_html/includes/assign.php on line 46
+[07-Aug-2017 01:23:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/assign.php:46) in /home1/classsta/public_html/includes/assign.php on line 50
+[07-Aug-2017 16:42:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/test.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/test.php on line 19
+[07-Aug-2017 16:43:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/test.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/test.php on line 19
+[07-Aug-2017 16:48:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/test.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/test.php on line 19
+[07-Aug-2017 16:51:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/test.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/test.php on line 20
+[07-Aug-2017 16:52:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/test.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/test.php on line 20
+[07-Aug-2017 17:48:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/remove.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/remove.php on line 10
+[09-Aug-2017 11:56:47 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/classsta/public_html/includes/upload_details.php on line 42
+[09-Aug-2017 11:56:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/upload_details.php:42) in /home1/classsta/public_html/includes/upload_details.php on line 43
+[09-Aug-2017 14:08:55 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:09:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:09:43 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:09:47 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:14:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:16:05 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:20:55 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/classsta/public_html/includes/upload_details.php on line 124
+[09-Aug-2017 14:22:21 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/classsta/public_html/includes/upload_details.php on line 125
+[09-Aug-2017 16:49:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' cannot be null in /home1/classsta/public_html/includes/upload_details.php:194
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(194): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 194
+[09-Aug-2017 16:49:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' cannot be null in /home1/classsta/public_html/includes/upload_details.php:194
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(194): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 194
+[09-Aug-2017 17:01:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' cannot be null in /home1/classsta/public_html/includes/upload_details.php:194
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(194): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 194
+[10-Aug-2017 17:02:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/classsta/public_html/includes/assign.php on line 47
+[10-Aug-2017 17:02:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/assign.php:47) in /home1/classsta/public_html/includes/assign.php on line 52
+[10-Aug-2017 17:05:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/classsta/public_html/includes/assign.php on line 47
+[10-Aug-2017 17:05:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/classsta/public_html/includes/assign.php:47) in /home1/classsta/public_html/includes/assign.php on line 52
+[17-Aug-2017 21:16:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' cannot be null in /home1/classsta/public_html/includes/upload_details.php:194
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(194): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 194
+[17-Aug-2017 21:16:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' cannot be null in /home1/classsta/public_html/includes/upload_details.php:194
+Stack trace:
+#0 /home1/classsta/public_html/includes/upload_details.php(194): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/classsta/public_html/includes/upload_details.php on line 194
+[29-Sep-2017 23:23:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home1/classsta/public_html/includes/remove.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/classsta/public_html/includes/remove.php on line 17

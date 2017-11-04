@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resources | ClassStash</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="modal.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="headcontainer">
+			<figure id="logo">
+				<img src="classstashlogo.jpeg" alt="Class Stash">
+			</figure>
+				<ul id="topmenu">
+					<li class="menuitem"><a href="dashboard.html">Home</a></li>
+					<li class="menuitem"><a href="classes.html">Classes</a></li>
+					<li class="menuitem"><a href="resources.html">Resources</a></li>
+					<li class="menuitem"><a href="help.html">Get Help</a></li>
+				</ul>
+				<p id="profile"><a href="profile.html">
+					<img src="profile.jpg" title="You" class="profile"></br>
+					John Appleseed</a>
+				</p>
+		</div>
+		<div id="rsrccontent">
+			<h1 id="rsrcpglabel">The best way to find academic resources.</h1>
+			<div style="width: 80%; position: relative; left: 4rem;">
+				<input placeholder="Search our stash..." class="searchbar"/>
+				<form action="srchlanding.html">
+					<button type="submit" class="srchbtn">GO</button>
+				</form>
+			</div>
+			<div class="bottomrsrc">
+				<h1 id="searchlabel">Find Resources related to your classes.</h1>
+				<ul id="classsearch">
+					<li class="srchclass">Class 1 <button type="submit" class="findrsrc">FIND</button></li>
+					<li class="srchclass">Class 2 <button type="submit" class="findrsrc">FIND</button></li>
+					<li class="srchclass">Class 3 <button type="submit" class="findrsrc">FIND</button></li>
+					<li class="srchclass">Class 4 <button type="submit" class="findrsrc">FIND</button></li>
+					<li class="srchclass">Class 5 <button type="submit" class="findrsrc">FIND</button></li>
+					<li class="srchclass">Class 6 <button type="submit" class="findrsrc">FIND</button></li>
+				</ul>
+				<div id="addopt">
+					<h1 id="addlabel">Help someone out! Add a resource.</h1>
+					<button href="#" id="addrsrcbtn">Add Resource</button>
+				</div>
+				<div id="addrsrcmodal">
+					<div id="modalcontent">
+						<span id="closemodal">&times;</span>
+						<form>
+							<button id="uploadbtn">Upload</button>
+							<div class="filediv">
+								<p id="nofilemsg">No file selected</p>
+							</div>
+							<div class="infoentry">
+								<input type="text" placeholder="Resource Title" class="upldentry"></input>
+								<textarea type="text" placeholder="Add Description" class="uplddescrip" rows="4" cols="60"></textarea>
+								<div id="selectdiv">
+									<input type="radio" name="upldtype" class="typeselect" id="btn1"/>
+									<label for="btn1" class="typelabel">Document</label>
+									<input type="radio" name="upldtype" class="typeselect" id=btn2/>
+									<label for="btn2" class="typelabel">Video</label>
+									<input type="radio" name="upldtype" class="typeselect" id="btn3"/>
+									<label for="btn3" class="typelabel">Image</label>
+									<input type="radio" name="upldtype" class="typeselect" id="btn4"/>
+									<label for="btn4" class="typelabel">Other</label>
+								</div>
+							</div>
+							<button type="submit" id="submitrsrcbtn">Submit Resource</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+		<div style="position: relative; top: .5rem; left: 1rem;">
+			<table>
+				<tr style="width: 100%">
+					<td><small>Copyright &copy; 2017 Joe Fedota, All Rights Reserved</small></td>
+					<td style="position: relative; left: 35%;"><a>About |</a><a href="#"> Contact Us |</a><a> Terms & Conditions</a><td>
+					<td style="position: absolute; right: 3rem;"><a><img style="height: 40px; width: 40px;" src="fb.png"></a><a style="padding-left: 1rem;"><img style="height: 40px; width: 40px;" src="twit.png"></a><a style="padding-left: 1rem;"><img style="height: 40px; width: 40px;" src="insta.png"></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
