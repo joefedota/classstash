@@ -1,0 +1,1375 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+html, body {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+footer {
+  bottom: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/*unique styling for index.html*/
+#indexbody {
+  background-image:;
+}
+#logo {
+	margin: 0%;	
+	float: left;
+	max-width: 25%;
+	height: auto;
+}
+#logo img{
+	max-width: 100%;
+	height: auto;
+}
+#new {
+	margin-left: 1%
+}
+#perklabel {
+	margin-top: 5%;
+	margin-left: 20%;
+}
+#headcontainer {
+	margin: 0;
+	background-color: #8c878c;
+	height: 8em;
+}
+.content {
+  overflow: auto;
+  width: 100%;
+  height: 700px;
+}
+#all {
+  position: absolute;
+  top: 8em;
+  width: 100%;
+  height: 700px;
+  background-image: url("notebook.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#topmenu {
+	display: inline;
+	position: relative;
+	top: 33%;
+	font-size: 25px;
+	margin-right: 1em;
+	width: 20%;
+	
+}
+.menuitem {
+	display: inline;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-family: sans-serif;
+  transition:.1s ease;
+	max-width: 100%;
+	max-height: 100%;
+}
+.menuitem:hover {
+	color: #f3a21b;
+}
+#profile {
+	position: relative;
+  top: .5rem;
+	float: right;
+	margin-right: 3em;
+	text-align: center;
+  max-width:115px;
+}
+#profile:hover {
+  color: #f3a21b;
+}
+.profile {
+	border-radius: 30px;
+  height: 60px;
+	width: 60px;
+}
+
+#signup {
+	width: 100%;
+}
+
+body {
+	margin:0;
+}
+
+a {
+  text-decoration:none;
+  transition:.5s ease;
+  color: inherit;
+  cursor: pointer;
+}
+
+#signupform {
+
+}
+
+.form {
+  padding-left: 1%;
+  min-width:50%;
+  margin-left: 0;
+  float: left;
+ 
+}
+
+.tab-group {
+  list-style:none;
+  padding:0;
+  margin:0 0 40px 0;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba($gray-light,.25);
+    color:$gray-light;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+    &:hover {
+      background:$main-dark;
+      color:$white;
+    }
+  }
+  .active a {
+    background:$main;
+    color:$white;
+  }
+}
+
+
+label {
+  position:absolute;
+  transform:translateY(6px);
+  left:13px;
+  color:rgba($white,.5);
+  transition:all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size:22px;
+  .req {
+  	margin:2px;
+  	color:$main;
+  }
+}
+
+#first {
+	margin-top:8%;
+}
+
+label.active {
+  transform:translateY(50px);
+  left:2px;
+  font-size:14px;
+  .req {
+    opacity:0;
+  }
+}
+
+label.highlight {
+	color:$white;
+}
+
+.signinput, textarea {
+  font-size:22px;
+  display:block;
+  width:82%;
+  height:100%;
+  padding:5px 10px;
+  background:none;
+  background-color: rgba(255, 255, 255, .7);
+  background-image:none;
+  border: 1px;
+  border-color: #8c878c;
+  border-style: solid;
+  border-radius:5px;
+  margin-top: 10%;
+}
+.signinput::placeholder {
+  color: black;
+}
+
+textarea {
+  border:2px solid $gray-light;
+  resize: vertical;
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:40px;
+}
+
+.button {
+  border:0;
+  outline:none;
+  border-radius: 10px;
+  padding:15px 0;
+  font-size:2rem;
+  font-weight: bold;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #8c878c;
+  color: white;
+  transition:all.5s ease;
+}
+
+.button:hover, .configbtn:hover {
+	color: #f3a21b;
+  background-color: transparent;
+}
+
+.button-block {
+  display:block;
+  width:85%;
+}
+
+.forgot {
+  margin-top:-20px;
+  text-align:right;
+}
+
+#perks {
+	margin-top: 0;
+	position: relative;
+	float: right;
+	width: 49%;
+  overflow: hidden;
+}
+.perk {
+  position: relative;
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 8%;
+  float: left;
+  overflow: hidden;
+}
+.plogo {
+  width: 20%;
+  height: 20%;
+  float: left;
+  display: inline;
+}
+#c1{
+  padding-right: 2.6em;
+}
+#c3 {
+  padding-right: 1.5em;
+}
+
+.caption {
+  position: relative;
+  display: inline;
+  float: right;
+  margin-top: 8%;
+  right: 5%;
+}
+#bottombar {
+  position: absolute;
+  bottom: 1em;
+}
+#smallindex {
+  min-width: 100%;
+}
+/* unique styling for login.html*/
+#logincontent {
+  overflow: auto;
+  width: 100%;
+  height: 600px;
+}
+#login {
+  text-align: center;
+  width: 50%;
+  height: 75%;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  background-color: rgba(255, 255, 255, .5);
+}
+#welcome {
+  padding-top: 1em;
+}
+.loginfield {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 80%;
+}
+.loginput {
+  background-color: rgba(255, 255, 255, .7);
+  margin-left: auto;
+  margin-right: auto;
+  font-size:22px;
+  display:block;
+  width:82%;
+  height:100%;
+  padding:5px 10px;
+  border: 1px;
+  border-color: #8c878c;
+  border-style: solid;
+  border-radius:5px;
+  margin-top: 10%;
+}
+.loginput::placeholder {
+  color: black;
+}
+#full {
+  position: absolute;
+  top: 8em;
+  width: 100%;
+  height: 630px;
+  background-image: url("1.jpg");
+  background-size: 100%;
+}
+#loginbtn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.4em;
+  margin-bottom: 1em;
+  width: 60%;
+}
+.logoptions:hover {
+  color: #f3a21b;
+}
+#copylog {
+  position: absolute;
+  margin-top: 1em;
+  bottom: 0;
+  left: 38.5%;
+}
+/*unique styling for dashboard.html*/
+/*external dashboard ui*/
+#dashcontent {
+  height: 700px;
+  width: 100%;
+  overflow: auto;
+}
+#dashboard {
+  position: absolute;
+  width: 100%;
+  top: 8em;
+  padding-bottom: 100px;
+  display: block;
+  overflow: hidden;
+}
+#dashlabel {
+  padding: .5em;
+}
+#toolbar {
+  float: left;
+}
+#menu {
+  border-radius: 10px;
+  background-color: #8c878c;
+  margin-left: 1em;
+  width: 90%;
+}
+#dashlist {
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.dashitem {
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  overflow: hidden;
+  transition:.4s ease;
+  background-color: #8c878c;
+}
+.selected {
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  overflow: hidden;
+  transition:.4s ease;
+  background-color: #625f62;
+}
+.dashitem:hover {
+  background-color: #625f62;
+}
+#dashcontainer {
+  position: relative;
+  float: right;
+  width: 70%;
+  margin-bottom: 5em;
+}
+/*dashboard tools*/
+/*whats new tab*/
+#updates {
+  position: relative;
+  top: 6em;
+  width: 95%;
+  min-height: 500px;
+  background-color: #f3ecf3;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.update {
+  min-height:100px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+.previewupdate {
+  position: relative;
+  top: 1.2em;
+  left: 2em;
+  min-height: 80%;
+  width: 20%;
+  display: inline;
+}
+.updatetext {
+  position: relative;
+  display: inline;
+  left: 4em;
+}
+/*styling for universal dashboard tabs*/
+.dashtab {
+  display: inline;
+  margin: none;
+  padding-bottom: 1em;
+  font-size: 25px;
+}
+.dashtab:hover {
+  color: #7d0d00;
+}
+.dashtabmenu {
+  position: relative;
+  font-weight: bold;
+  padding-left: .5em;
+  height: 2em;
+  padding-left:0;
+  padding-top: 1em;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/*assignments/tests tab*/
+#assign {
+  display: none;
+  position: relative;
+  top: 6em;
+  width: 95%;
+  min-height: 500px;
+  background-color: #f3ecf3;
+  border-radius: 10px;
+}
+#assigntab {
+  position: absolute;
+  color: #7d0d00;
+  left: 20%;
+}
+#testtab {
+  position: absolute;
+  right: 20%;
+}
+#assignwindow {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+.assignment {
+  width: 100%;
+  height: 200px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+.test {
+  width: 100%;
+  height: 200px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  display: none;
+}
+.attitle {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.course {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.teacherassign {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+.assignleft {
+  float: left;
+}
+.assignright {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+.assignbtn {
+  position: relative;
+  float: right;
+  top: 3.2em;
+  right: 6em;
+  border-style: none;
+  border-radius: 30px;
+  width: 50%;
+  height: 100px;
+  font-weight: bold;
+  text-transform:uppercase;
+  font-size: 15px;
+}
+/*study groups tab*/
+#groups {
+  display: none;
+  position: relative;
+  top: 6em;
+  width: 95%;
+  min-height: 500px;
+  background-color: #f3ecf3;
+  border-radius: 10px;
+}
+.studygroup {
+  min-height:100px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+.groupname {
+  position: relative;
+  padding-left: 1em;
+  top: 2rem;
+  display: inline;
+}
+.groupmembers {
+  position: absolute;
+  display: inline;
+  top: .8rem;
+  left: 43%;
+}
+.gogroup {
+  position: absolute;
+  display: inline;
+  right: 1em;
+  top: .8rem;
+}
+/*favorites tab*/
+#favorites {
+  display: none;
+  position: relative;
+  top: 6em;
+  width: 95%;
+  min-height: 500px;
+  background-color: #f3ecf3;
+  border-radius: 10px;
+}
+.fav {
+  position: relative;
+  height:150px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+.previewfav {
+  position: relative;
+  top: 1em;
+  left: 1em;
+  height: 80%;
+  width: 20%;
+  display: inline;
+}
+.favimg {
+  max-width: 70%;
+  max-height: 70%;
+}
+.favname {
+  display: inline;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+}
+.favlink {
+  color: #f3a21b;
+}
+.favtag {
+  position: absolute;
+  display: inline;
+  top: 32%;
+  left: 40%;
+}
+.favoptions {
+  position: absolute;
+  top: 32%;
+  left: 60%;
+}
+.favopt {
+  display: inline;
+  padding-left: .5em;
+  padding-right: .7em;
+  border-right-style: solid;
+  border-width: 1px;
+}
+#lastopt {
+  border-right-style: none;
+}
+/*my school tab*/
+#school {
+  display: none;
+  position: relative;
+  top: 6em;
+  width: 95%;
+  min-height: 500px;
+  background-color: #f3ecf3;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+  /*my school - top menu*/
+#schedtab {
+  position: absolute;
+  left: 2em;
+  color: #7d0d00;
+}
+#newstab {
+  position: absolute;
+  left: 27%;
+}
+#clubtab {
+  position: absolute;
+  left: 55%;
+}
+#maptab {
+  position: absolute;
+  left: 72%;
+}
+  /*my school - minor window styling*/
+#schedule, #newswindow {
+  position: relative;
+  top: 20px;
+  left: 5%;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 350px;
+}
+  /*my school - schedule*/
+.scheduleitem {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+.classname {
+  position: absolute;
+  display: inline;
+  padding-left: 1em;
+}
+.teachersched {
+  position: absolute;
+  display: inline;
+  left: 38%;
+}
+.schedroom {
+  position: absolute;
+  display: inline;
+  right: 1em;
+}
+.timeframe {
+  position: absolute;
+  top: 60%;
+  left: 37.75%;
+}
+.moreclass {
+  position: absolute;
+  top: 60%;
+  right: 1em;
+  color: #7d0d00;
+}
+  /*my school - school news*/
+#newswindow {
+  display: none;
+}
+.articletitle {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.article {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+  /*my school - clubs*/
+.clubview {
+  position: relative;
+  display: none;
+  min-height: 100px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+  /*my school - map*/
+#schoolmap {
+  display: none;
+  width:80%;
+  height:80%;
+}
+#mapimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*footer*/
+#copydash {
+  position: absolute;
+  margin-top: 1em;
+  bottom: 1em;
+  left: 38.5%;
+}
+/*unique styling for resources.html*/
+#rsrccontent {
+  width: 100%;
+  overflow: auto;
+  height: 800px;
+}
+#rsrcpglabel {
+  position: relative;
+  padding-left: 5%;
+  font-size: 45px;
+}
+.searchbar {
+  display: inline;
+  height: 60px;
+  width: 95%;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: .5em;
+}
+.searchbar:focus {
+  outline: none;
+}
+.srchbtn {
+  position: absolute;
+  display: inline;
+  height: 65px;
+  width: 110px;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #8c878c;
+  color: #fff;
+  border-style: none;
+}
+#searchlabel {
+  position: relative;
+  top: 3rem;
+  padding-left: 5%;
+  max-width: 40%;
+}
+.bottomrsrc {
+  position: relative;
+  width: 100%;
+}
+#classsearch {
+  float: left;
+  position: relative;
+  top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 5%;
+  width: 40%;
+}
+.srchclass {
+  position: relative;
+  padding:1rem;
+  border-style: solid;
+  border-width: 1px;
+}
+.findrsrc {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 15%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: #8c878c;
+  border-style: none;
+  letter-spacing: .1rem;
+}
+#addopt {
+  position: relative;
+  top: 2rem;
+  max-width: 50%;
+  float: right;
+  padding-right: 2rem;
+}
+#addlabel {
+  position: relative;
+}
+#addrsrcbtn {
+  position: relative;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  background-color: #8c878c;
+  border-style: none;
+  border-radius: 20px;
+  font-size: 30px;
+  letter-spacing: 0;
+  transition:all.5s ease;
+}
+#addrsrcbtn:hover, .findrsrc:hover, .srchbtn:hover {
+  background-color: #625f62;
+}
+/*styling for modal upload*/
+#addrsrcmodal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#modalcontent {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  margin: 100px auto;
+  height: 400px;
+  width: 50%;
+}
+#closemodal {
+  position: relative;
+  float: right;
+  top: .1em;
+  right: .5em;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+#uploadbtn {
+  float: left;
+  display: inline;
+  position: relative;
+  border-style: none;
+  top: 2rem;
+  left: 2rem;
+  height: 4rem;
+  width: 20%;
+  font-size: 15px;
+  background-color: #8c878c;
+  font-weight: bold;
+  color: white;
+}
+#uploadbtn:hover, #submitrsrcbtn:hover {
+  background-color: #625f62;
+}
+.filediv {
+  position: absolute;
+  right: 50%;
+  top: 2rem;
+}
+.infoentry {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.upldentry {
+  position: relative;
+  left: 2rem;
+  height: 2.5rem;
+  width: 80%;
+  font-size: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  padding-left: .5rem;
+}
+.uplddescrip {
+  position: relative;
+  left: 2rem;
+  font-size: 1.5rem;
+  margin: 0;
+  top: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+  resize: none;
+}
+#selectdiv {
+  position: relative;
+  top: 3rem;
+}
+.typeselect {
+  display: inline;
+  position: relative;
+  margin-left: 2rem;
+}
+.typelabel {
+  position: relative;
+  display: inline;
+  font-size: 15px;
+  left: .2rem;
+}
+#submitrsrcbtn {
+  display: inline;
+  position: absolute;
+  border-style: none;
+  right: 2rem;
+  bottom: 1rem;
+  height: 4rem;
+  width: 20%;
+  font-size: 15px;
+  background-color: #8c878c;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #8c878c; 
+  height: 4rem;
+}
+/*unique styling for classes.html*/
+#classinterface {
+  position: relative;
+  top: 1em;
+  width: 90%;
+  height: 600px;
+  background-color: #f3ecf3;
+  margin: auto;
+  overflow: auto;
+}
+#classmenu {
+  position: relative;
+  float: left;
+  width: 20%;
+  margin-top: 0;
+  padding-left: 0;
+}
+.classopt {
+  position: relative;
+  height: 3rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+.classopt:after {
+  content: '\02795'; /*unicode for + */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  padding-right: .5rem;
+}
+.classopt:hover {
+  background-color: #a1a1a1;
+}
+.active {
+  background-color: #a1a1a1;
+  height: 3rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+.active:after {
+  content: "\2796";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  padding-right: .5rem;
+}
+.menuReveal {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#menu1 {
+  display: block;
+}
+.subopt {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  border-top: solid 1px;
+  background-color: #c9c9c9;
+}
+.subopt:hover {
+  background-color: #a1a1a1;
+}
+.subactive {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  border-top: solid 1px;
+  background-color: #a1a1a1;
+}
+#mainclassview {
+  position: relative;
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+.assignmentsview {
+  display: none;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: #fff;
+  top: 1em;
+  margin: auto;
+}
+.assignmentcell {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.assignname {
+  position: relative;
+  padding-left: 1rem;
+  top: .5rem;
+  display: inline;
+}
+.cellopen {
+  float: right;
+  margin-top: .75rem;
+  padding-right: 1rem;
+  display: inline;
+}
+.addassign {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+#firstassign {
+  display: block;
+}
+.assigninterface {
+  display: none;
+}
+.cellclose {
+  float: right;
+  margin-top: .75rem;
+  padding-right: 1rem;
+  display: inline;
+}
+.classrsrclbl {
+  position: relative;
+  top: 2rem;
+  padding-left: 1rem;
+}
+.usedrsrcs {
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  height: 100px;
+  width: 40%;
+  background-color: #a1a1a1;
+}
+.progressdiv {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  min-height: 100px
+}
+.proglabel {
+  display: block;
+  padding-top: .5rem;
+  padding-left: 1rem;
+}
+.progressbar {
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  width: 80%;
+  height: 5px;
+  border-radius: 30px;
+  background-color: #a1a1a1;
+}
+.complete {
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  border-style: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 25%;
+  background-color: #8c878c;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.newscell {
+  width: 100%;
+  min-height: 100px;
+  border-bottom: solid 1px;
+}
+.classupdate {
+  position: relative;
+  padding-left: 1em;
+  top: 2em;
+}
+#addupdate {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.updatein {
+  position: relative;
+  display: inline;
+  top: .5rem;
+  left: 1rem;
+  height: 30px;
+  vertical-align: center;
+  width: 60%;
+  padding-left: .5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-style: none;
+}
+.upopts {
+  position: relative;
+  top: .4rem;
+  padding-left: 2.5rem;
+}
+.classrsrcdiv {
+  height: 100px;
+  display: inline-block;
+}
+.classrsrcprev {
+  width: 40px;
+  height: 50px;
+  display: inline;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+.classrsrclink {
+  position: relative;
+  float: right;
+  display: inline;
+  padding-left: 1rem;
+  top: 2rem;
+}
+.classheader {
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-right: 0;
+}
+.clssheadername {
+  position: relative;
+  color: white;
+  left: 1rem;
+  top: .5rem;
+}
+.membersdisp {
+  float: right;
+  display: inline;
+  width: 35%;
+  height: 90.75%;
+  border-bottom-right-radius: 10px;
+  overflow: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.membercell {
+  height: 50px;
+}
+.classinfo {
+  float: left;
+  width: 60%;
+  padding-left: 1rem;
+}
+/*unique styling for config.html*/
+.configleft {
+  padding-left: 1rem;
+  width: 40%;
+  float: left;
+  height: 400px;
+  background-color: rgba(158, 153, 157, 0.4);
+  border-bottom-right-radius: 40px;
+}
+.configbtn {
+  position: relative;
+  top: 100px;
+  left: .5rem;
+  font-weight: bold;
+  float: left;
+  font-size: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #8c878c;
+  color: white;
+  padding: 2rem;
+  transition: 1s ease;
+}
+#addschoollink {
+  position: relative;
+  top: 2rem;
+}
+.configentry {
+  position: relative;
+  font-size: 20px;
+  height: 30px;
+  width: 10rem;
+  left: 1rem;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 1.5rem;
+}
+.entrylabel {
+  position: relative;
+  top: 4rem;
+}
+.configright {
+  float: right;
+  width: 50%;
+}
+#pickclassdiv {
+  position: relative;
+  width: 90%;
+  height: 500px;
+}
+/*unique styling for srchlanding.html*/
+/*unique styling for profile.html*/
+.crop {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: solid 5px;
+  border-color: #f3a21b;
+  -webkit-border-radius: 75px; 
+  -moz-border-radius: 75px; 
+  border-radius: 150px;
+  background-image: url("profile.jpg");
+  background-size: 180px 150px;
+  background-position: center center;
+}
+.profileinfo {
+  position: relative; 
+  top: 3rem;
+  width: 90%; 
+  border-radius: 20px; 
+  background-color: #f3ecf3; 
+  height: 200px;
+}
+.profclss {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.teacher {
+  padding-left: 0;
+  font-size: 14px;
+}
+/*media queries for different screen sizes*/
+@media only screen and (max-width:1180px) {
+  #perks {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1059px) and (max-width:1175px){
+	#topmenu {
+		font-size: 22px;
+	}
+	#headcontainer {
+		height: 7em;
+	}
+  #full, #all {
+    top: 7em;
+  }
+  #dashcontainer {
+    width: 65%;
+  }
+  #menu {
+    width: 70%;
+  }
+  #addlabel {
+    font-size: 30px;
+  }
+  .typeselect {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 1058px){
+	#topmenu {
+		font-size: 20px;
+		top: 40%;
+	}
+	#headcontainer {
+		height: 6.5em;
+	}
+  #full, #all {
+    top: 6em;
+  }
+	#profile {
+		top: 0;
+	}
+  #dashcontainer {
+    width: 60%;
+  }
+  #menu {
+    width: 70%;
+  }
+  .favopt {
+    font-size: 13px;
+  }
+  #addlabel {
+    font-size: 27px;
+  }
+  .typeselect {
+    margin-left: 1rem;
+  }
+  .filediv {
+  right: 45%;
+  }
+}
